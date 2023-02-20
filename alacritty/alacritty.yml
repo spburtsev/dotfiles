@@ -1,9 +1,9 @@
 font:
-  size: 12
+  size: 14
   normal:
-    family: "JetBrains Mono"
+    family: "JetBrains Mono NL"
 window:
-  opacity: 0.92
+  opacity: 0.90
   padding:
     x: 10
     y: 10
