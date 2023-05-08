@@ -1,1 +1,1 @@
-# Nothing but my dotfiles :>
+# Nothing special here
