@@ -1,12 +1,12 @@
 font:
-  size: 14
+  size: 15
   normal:
     family: "JetBrains Mono NL"
 window:
-  opacity: 0.90
-  padding:
-    x: 10
-    y: 10
+  # opacity: 0.90
+  # padding:
+  #   x: 10
+  #   y: 10
   decorations: full
   dynamic_padding: true
 
@@ -125,6 +125,7 @@ schemes:
 #colors: *dracula
 # colors: *doom-one
 colors: *ayudark
+
 
 key_bindings:
   - { key: N, mods: Command, action: SpawnNewInstance }
