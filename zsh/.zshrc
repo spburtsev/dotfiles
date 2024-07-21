@@ -102,3 +102,20 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+
+# fnm
+FNM_PATH="/home/spburtsev/.local/share/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="/home/spburtsev/.local/share/fnm:$PATH"
+  eval "`fnm env`"
+fi
+
+# # bun completions
+[ -s "/home/spburtsev/.bun/_bun" ] && source "/home/spburtsev/.bun/_bun"
+
+# Bun
+export BUN_INSTALL="/home/spburtsev/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+
