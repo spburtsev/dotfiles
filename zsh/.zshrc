@@ -102,6 +102,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-SCRIPTS_DIR="$HOME/scripts"
-
-export PATH=$SCRIPTS_DIR:$PATH
